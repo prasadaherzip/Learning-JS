@@ -9,7 +9,9 @@ let accountState;
 
 console.log(accountId);
 
-console.table([accountPassword, accountCity, accountId])
+console.table([accountPassword, accountCity, accountId, accountEmail,
+    accountState])
+
 
 /*
 perfer not to use var
