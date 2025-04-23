@@ -7,4 +7,4 @@ console.log("My name is "+name+" and my age is "+ age)
 
 /* better way to write te same thing */
 
-console.log(
+console.log(`My name is ${name} and my age is ${age}`)
