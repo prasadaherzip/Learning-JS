@@ -1,3 +1,5 @@
+/* PRIMITIVE DATATYPES, 7 TYPES */
+
 "use strict"; // treat all JS code as newer version
 
 // alert("hello")
@@ -24,3 +26,9 @@ console.table([name, age, isLoggedIn, state, abcd])
 
 console.log(typeof undefined);  //undefined
 console.log(typeof null);       //null is an object
+
+/* NON PRIMITIVE DATA TYPES AKA REFERENCE DATA TYPES */
+
+//ARRAY, OBJECTS, FUNCTIONS//
+
+
