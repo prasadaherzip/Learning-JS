@@ -22,11 +22,15 @@ console.log("TOdays date")
 let newDate = new Date()
 console.log(newDate)
 console.log(newDate.getDay())
-console.log(newDate.getMonth()+1)\
+console.log(newDate.getMonth()+1)
 
 // console.log(`${newDate.getDay()} and the time`)
 
 newDate.toLocaleString('default',{
     weekday: "long"
-    
+
 })
+
+let prasad=new Date()
+console.log(prasad.toDateString())
+console.log(prasad.toLocaleString())
