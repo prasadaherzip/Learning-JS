@@ -6,3 +6,4 @@ console.log("")
 
 users.splice(1,2,"Hi","Bye")
 console.log(users);
+

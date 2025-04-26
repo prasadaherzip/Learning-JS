@@ -34,3 +34,4 @@ newDate.toLocaleString('default',{
 let prasad=new Date()
 console.log(prasad.toDateString())
 console.log(prasad.toLocaleString())
+
