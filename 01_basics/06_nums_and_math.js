@@ -2,7 +2,7 @@ console.log("---Numbers Section---")
 const score = 400
 console.log(score)
 
-const balance = new Number(100)         //specify a numbe rto be a datatype of number only
+const balance = new Number(100)         //specify a number to be a datatype of number only
 console.log(balance);
 
 console.log(balance.toString().length); //length of string
