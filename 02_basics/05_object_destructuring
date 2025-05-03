@@ -1,0 +1,18 @@
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+  
+
+/* ususaway of printing is */
+//console.log(coruse.courseInstructor)
+
+/* better in repititon */
+const {courseInstructor}= course        
+console.log(courseInstructor)
+
+const {courseInstructor : instructor} =  course     //switch object key to something else
+
+console.log(instructor)
+

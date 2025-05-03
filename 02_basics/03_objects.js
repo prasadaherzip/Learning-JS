@@ -18,7 +18,7 @@ console.log(jsUser["email"]);        // object["key"], square bracket notation
 
 console.log("")
 
-console.log(jsUser["fullname"]);     // Corrected missing closing parenthesis
+console.log(jsUser["fullname"]);     
 
 /* Accessing a symbol key from an object */
 
@@ -26,7 +26,7 @@ console.log(jsUser[mySym]);
 /* manipulating values in an object */
 
 jsUser.email = "prasad@chatgpt.com";    // changing the value of a key
-// Object.freeze(jsUser);                  // Capital "O" needed in Object
+// Object.freeze(jsUser);               // Capital "O" needed in Object
 jsUser.email = "prasad@microsoft.com";  // won't change because object is frozen
 console.log(jsUser);
 
