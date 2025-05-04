@@ -15,4 +15,3 @@ console.log(courseInstructor)
 const {courseInstructor : instructor} =  course     //switch object key to something else
 
 console.log(instructor)
-
