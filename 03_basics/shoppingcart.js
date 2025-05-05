@@ -1,5 +1,20 @@
-function cartPrice(...num1){            // rest and spread operator
+function cartPrice(val1, val2,...num1){            // rest and spread operator
     return num1
 }
 
-console.log(cartPrice(200,300,400))
+console.log(cartPrice(200,300,400,2000))
+
+const user - {
+    username: "hitesh",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is 
+        ${anyobject.price}`);
+}
+
+handleObject({
+    unsername :"sam",
+    price:399
+})
