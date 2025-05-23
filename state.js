@@ -5,4 +5,4 @@ const myArr = [ "revive", "health", "save", "discard"]
 myNo.push(6,4,3,2,1)
 myArr.push("pubg","Settings",'test')
 
-console.log(myNo(7))
+console.log(myNo)
